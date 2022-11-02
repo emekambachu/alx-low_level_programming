@@ -27,5 +27,5 @@ if (*accept == '\0')
 	break;
 
 }
-		return (count + 1);
-		}
+	return (count + 1);
+}
