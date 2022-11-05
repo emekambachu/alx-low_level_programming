@@ -1,20 +1,132 @@
-int _putchar(char c);
-int _islower(int c);
-int _isalpha(int c);
-int _abs(int n);
-int _isupper(int c);
-int _isdigit(int c);
-int _strlen(char *s);
-void _puts(char *s);
-char *_strcpy(char *dest, char *src);
-int _atoi(char *s);
-char *_strcat(char *dest, char *src);
-char *_strncat(char *dest, char *src, int n);
-char *_strncpy(char *dest, char *src, int n);
-int _strcmp(char *s1, char *s2);
-char *_memset(char *s, char b, unsigned int n);
-char *_memcpy(char *dest, char *src, unsigned int n);
-char *_strchr(char *s, char c);
-unsigned int _strspn(char *s, char *accept);
-char *_strpbrk(char *s, char *accept);
-char *_strstr(char *haystack, char *needle);
+!<arch>
+/               1570914555  2     Û     1       246       `
+     :  ~  Â  f  b  ¦  !ò  '®  -
+  2F  8  =N  CB  I  NÂ  Sþ  Yr  _–  dº  j>_isupper _memset _strcat _atoi _isdigit _memcpy _strncat _strchr _strlen _strncpy _islower _puts _strcmp _strspn _isalpha _strpbrk _strstr _abs _strcpy _putchar  0-isupper.o/    1570914442  1000  1000  100664  1288      `
+ELF          >                    @          @     @   UH‰å‰}ìÇEü    ÇEøA   ë‹Eø;Eìu	ÇEü   ë
+ƒEøƒ}øZ~å‹Eü]Ã GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010             zR x            7    A†C
+	C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010         äzR äxä†C
+	C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        †C
+zR †C
+x†C
+†C
+	trncat.c _strncat                         2-strchr.o/     1570914442  1000  1000  100664  1312      `ELF    A†C
+    A†C
+             A†C
+ >     A†C
+                   X    A†C
+    A†C
+
+	C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010                  A†C
+slower.c _islower                         3-puts.o/       1570914442  1000  1000  100664  1464      `ELF†C
+†C
+         †C
+ > †C
+                   `†C
+          @     @  	 UH‰åHƒì H‰}èÇEü    ë‹EüHcÐH‹EèH†C
+Ð À‰Çè    ƒEü ‹EüHcÐH‹EèH Ð „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR     A†C†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               
+x    A†C
+†C
+	C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+		salpha.c _isalpha                         4-strpbrk.o/    1570914442  1000  1000  100664  1336      `ELFC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                        C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                > C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                                  pC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 8.5.0-12ubuntu2~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu ymtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                            salpha.c _isalpha                         4-strpbrk.o/    1570914442  1000  1000  100664  1336      `ELFC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                        C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                > C: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+		è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                                  pC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010            †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               zR †C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               x†C
+O   .symtab .strtab .shstrtab .rela.text .data .bss .comment .note.GNU-stack .rela.eh_frame                                                                             „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð                  @       T                „ÀuÎ¿
+	è    ÉÃ GCC: (Ubuntu 5.5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               .5.0-12ubuntu1~14.04) 5.5.0 20171010        À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐzR À‰Çè    ƒEü ‹EüHcÐH‹EèH ÐxÀ‰Çè    ƒEü ‹EüHcÐH‹EèH Ð               
