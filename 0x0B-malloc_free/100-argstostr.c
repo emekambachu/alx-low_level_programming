@@ -1,47 +1,43 @@
-#include <stdlib.h>
 #include "main.h"
-
 /**
- * argstostr - function concatenates all the arguments of your program.
- * @ac: pointer
- * @av: altura
- *
- * REturn: result
+ * argstostr - prints args
+ * @ac: takes in width of grid
+ * @av: height of grid
+ * Return: the args one line at a time
  */
 
 char *argstostr(int ac, char **av)
 {
-	int i = 0, j = 0, cont = 0;
-	char *result, *new;
+	char *str;
+	int count = 0, a = 0, b = 0, c = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	while (i < ac)
+	while (a < ac)
 	{
-		new = av[i];
-		while (*new)
+		b = 0;
+		while (av[a][b] != '\0')
 		{
-			cont++;
-			new++;
+			count++;
+			b++;
 		}
-		cont++;
-		i++;
+		a++;
 	}
-	result = malloc(cont + 1);
-	i = 0;
-	while (i < ac)
+	count = count + ac + 1;
+	str = malloc(sizeof(char) * count);
+	if (str == NULL)
 	{
-		new = av[i];
-		while (*new)
-		{
-			result[j] = *new;
-			new++;
-			j++;
-		}
-		result[j] = '\n';
-		j++;
-		i++;
+		return (NULL);
 	}
-	result[cont + 1] = '\0';
-	return (result);
+	for (a = 0; a < ac; a++)
+	{
+		for (b = 0; av[a][b] != '\0'; b++)
+		{
+			str[c] = av[a][b];
+			c++;
+		}
+		str[c] = '\n';
+		c++;
+	}
+	return (str);
 }
