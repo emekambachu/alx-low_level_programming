@@ -1,43 +1,53 @@
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * argstostr - prints args
- * @ac: takes in width of grid
- * @av: height of grid
- * Return: the args one line at a time
+ * argstostr - concatenates all the arguments of your program
+ *
+ * @ac: counter of arguments
+ * @av: vector of arguments
+ *
+ * Return: pointer to a new string, or NULL if it fails. Returns NULL
+ * if ac == 0 or av == NULL
  */
 
 char *argstostr(int ac, char **av)
 {
-	char *str;
-	int count = 0, a = 0, b = 0, c = 0;
+	char *ar;
+	int i;
+	int j;
+	int k = 0;
+	int n;
+	int m;
+	int counter = 0;
 
-	if (ac == 0 || av == NULL)
+	if (ac == 0)
 		return (NULL);
-	while (a < ac)
-	{
-		b = 0;
-		while (av[a][b] != '\0')
-		{
-			count++;
-			b++;
-		}
-		a++;
-	}
-	count = count + ac + 1;
-	str = malloc(sizeof(char) * count);
-	if (str == NULL)
-	{
+	if (av == NULL)
 		return (NULL);
-	}
-	for (a = 0; a < ac; a++)
+
+	for (i = 0; i < ac; i++)
 	{
-		for (b = 0; av[a][b] != '\0'; b++)
-		{
-			str[c] = av[a][b];
-			c++;
-		}
-		str[c] = '\n';
-		c++;
+		for (j = 0; av[i][j] != '\0'; j++)
+			counter++;
+
+		counter++;
 	}
-	return (str);
+	counter++; /* to account for \n that needs to be added later */
+	ar = malloc(sizeof(char) * counter);
+	if (ar == NULL)
+		return (NULL);
+
+	for (n = 0; n < ac; n++)
+	{
+		for (m = 0; av[n][m] != '\0'; m++)
+		{
+			ar[k] = av[n][m];
+			k++;
+		}
+		ar[k] = '\n';
+		k++;
+	}
+	ar[k] = '\0';
+	return (ar);
 }
